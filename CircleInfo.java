@@ -4,12 +4,13 @@ import java.util.Scanner;
 public class CircleInfo
 {
 	
-	private static Scanner scanner = new Scanner( System.in );
 	public static void main(String[] args)
 	{
+		Scanner s = new Scanner( System.in );
+		
 		System.out.println( "What is the radius of the circle?" );
 		
-		int radius = Scanner.nextInt();
+		double radius = s.nextDouble();
 		
 		double circumference = Math.PI * 2 * radius;
 		double areaOfCircle = Math.PI * (Math.pow( radius, 2 ));
