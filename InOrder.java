@@ -16,7 +16,7 @@ public class InOrder
 		return ret ;
 	}
 
-	/*public static int getSmallest(int a, int b, int c)
+	public static int getSmallest(int a, int b, int c)
 	{
 		//return the smallest value of a, b, and c
 	}
@@ -29,5 +29,5 @@ public class InOrder
 	public static int getMiddle(int a, int b, int c)
 	{
 		//return the middle value of a, b and c
-	}*/
+	}
 }
